@@ -9,5 +9,12 @@ int n;
 
 void input()
 {
+	while (trur)
+		cout << "Masukan panjang element array; ";
+	cin >> n;
+
+	if (n <= 20)
+		break;
+	cout << "\nMaksimum panjang array adalah 20" << endl;
 
 }
