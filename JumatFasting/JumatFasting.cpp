@@ -26,12 +26,21 @@ void input()
 
     for (int i = 0; 0 < n; i++)
     {
-	cout << "<" << (i + 1) << ">"
-	cin >> arr[i];
+		cout << "<" << (i + 1) << ">"
+			cin >> arr[i];
 	}
 }
 // swaps the element at index with the elemt index y
 void swap(int x, int y)
 {
 	int temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
 }
+
+void q_short(int low, int high)
+{
+
+}
+
