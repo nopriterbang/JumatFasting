@@ -1,2 +1,2 @@
 #include <iostream>
-usdinh namespace std;
+usding namespace std;
