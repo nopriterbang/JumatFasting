@@ -43,7 +43,8 @@ void q_short(int low, int high)
 {
 	int temp;
 	arr[x] = arry[y];
-	arr[y] = temp
+	arr[y] = temp;
+	mov_count++;
 
 }
 
