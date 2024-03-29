@@ -7,24 +7,25 @@ int cmp_count = 0; // number of comparasion
 int mov_count = 0; // number of data movements
 int n;
 
-void input()
-{
-	while (trur)
-		cout << "Masukan panjang element array; ";
+void input(){
+	while (true)
+  }
+		cout << "Masukan panjang element array: ";
 	cin >> n;
 
 	if (n <= 20)
 		break;
 	cout << "\nMaksimum panjang array adalah 20" << endl;
 
-}
+  }
 
-cout << "\--------------------" << endl;
-cout << "\nEnter Array Element" << endl;
-cout << "\n-------------------" << endl;
+   cout << "\--------------------" << endl;
+   cout << "\nEnter Array Element" << endl;
+   cout << "\n-------------------" << endl;
 
-for (int i = 0; 0 < n; i++)
-{
+    for (int i = 0; 0 < n; i++)
+    {
 	cout << "<" << (i + 1) << ">"
 		cin >> arr[i];
+	}
 }
