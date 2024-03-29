@@ -45,6 +45,7 @@ void q_short(int low, int high)
 	arr[x] = arry[y];
 	arr[y] = temp;
 	mov_count++;
-
 }
+
+void q_short(int low, int high)
 
